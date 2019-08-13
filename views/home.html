@@ -2,10 +2,20 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Web Secretary</title>
+    <title>Todo Manager</title>
     <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
 </head>
 <body>
-    <p>Hello home</p>
+    <form id="form">
+        <label>Todo:  <input type="text" id="name" name="name" ></label>
+        <button type="submit">Submit form</button>
+    </form>
+
+    <p id="log"></p>
+    
+    <div id="todo-list">
+    </div>
+
+    <script type="text/javascript" src="js/todo.js"></script>
 </body>
 </html>
